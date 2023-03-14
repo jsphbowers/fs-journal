@@ -8,7 +8,7 @@
 **2.** What is an event listener?
 <!-- enter you answer in the space below -->
 ```
-
+The event listener is a line of code that "listens" to other pages in javascript and invokes a function whenever there is a change to the segment of code that is being "listened" to.
 ```
 **3.** What does the `O` represent in the `SOLID` principles?
 <!-- enter you answer in the space below -->
