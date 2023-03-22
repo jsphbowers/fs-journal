@@ -3,12 +3,15 @@
 **1.** What do the letters of the acronym `CRUD` stand for?
 <!-- enter you answer in the space below -->
 ```
-
+Create, Read, Update, Delete
 ```
 **2.** Each action that `CRUD` represents maps to an HTTP request. What HTTP request does each `CRUD` action correspond to?
 <!-- enter you answer in the space below -->
 ```
-
+Create corresponds to Post which lets you create an object in an api.
+Read corresponds to Get which allows you to read the contents of an api and pull content.
+Update corresponds to Put which allows you to pull a specific object from an api and update it.
+Delete corresponds to delete which can be used to remove objects from an api.
 ```
 **3.** What does `ORM` stand for? Which `ORM` do we use when interacting with MongoDB
 <!-- enter you answer in the space below -->
@@ -18,7 +21,7 @@
 **4.** Which two `HTTP` request types include a body?
 <!-- enter you answer in the space below -->
 ```
-
+Put and Post as one is used to update an api and the other is used to create a new object within an api.
 ```
 **5.** In a/an _______ coding model, when you call a function, it returns only when the action has finished and stops your program for the time the action takes. Likewise in a/an _______ coding model, multiple things are allowed to happen at one time. When you perform an action, your program continues to run.  Fill in the blanks.
 <!-- enter you answer in the space below -->
@@ -33,7 +36,8 @@ let Schema = ________.Schema;
 ```
 <!-- enter you answer in the space below -->
 ```
-
+import mongoose from "mongoose"
+let Schema = 
 ```
 **7.** What is middleware?
 <!-- enter you answer in the space below -->
